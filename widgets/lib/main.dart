@@ -1,7 +1,6 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'package:widgets/Components/appBar.dart';
+import 'package:widgets/Components/bottom_navbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +9,18 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // A p p B a r
-      home: Appbar(),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+
+        // A P P B A R
+        // body: Appbar(),
+
+        // B O T T O M N A V B A R
+        bottomNavigationBar: const BottomNavbar(),
+      ),
     );
   }
 }
