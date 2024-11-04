@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(RowColWidget());
+
 class RowColWidget extends StatefulWidget {
   const RowColWidget({super.key});
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(BottomNavbar());
+
 class BottomNavbar extends StatefulWidget {
   const BottomNavbar({super.key});
 

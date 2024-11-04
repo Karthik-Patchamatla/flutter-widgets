@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(Stackwidget());
+
 class Stackwidget extends StatefulWidget {
   const Stackwidget({super.key});
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(ScrollbarExample());
+
 class ScrollbarExample extends StatelessWidget {
   const ScrollbarExample({super.key});
 

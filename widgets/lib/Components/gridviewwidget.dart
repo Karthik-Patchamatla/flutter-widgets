@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(GridViewWidget());
+
 class GridViewWidget extends StatefulWidget {
   const GridViewWidget({super.key});
 
