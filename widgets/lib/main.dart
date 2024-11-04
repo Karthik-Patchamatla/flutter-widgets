@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:widgets/Components/gridviewwidget.dart';
 // import 'package:widgets/Components/container.dart';
 // import 'package:widgets/Components/row&col.dart';
-import 'package:widgets/Components/scrollbars.dart';
+// import 'package:widgets/Components/scrollbars.dart';
 // import 'package:widgets/Components/appBar.dart';
 // import 'package:widgets/Components/bottom_navbar.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ScrollbarExample(),
+      home: GridViewWidget(),
     );
   }
 }
