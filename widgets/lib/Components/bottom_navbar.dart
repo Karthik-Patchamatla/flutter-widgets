@@ -19,7 +19,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60.0,
+      height: 65.0,
       child: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
@@ -31,16 +31,12 @@ class _BottomNavbarState extends State<BottomNavbar> {
             label: 'Search',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_a_photo),
-            label: 'add',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.videocam),
-            label: 'Reels',
+            icon: Icon(Icons.message),
+            label: 'Message',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: 'Account',
           ),
         ],
         currentIndex: selectedIndex,
