@@ -31,19 +31,19 @@ The Form Field Widget is a reusable widget component included in several files t
 To use or modify the widgets in this project:
 
 1. Clone the repository:
-   
+   ```bash
    git clone https://github.com/yourusername/yourprojectname.git
 
 2. Navigate to the project directory:
-
+   ```bash
    cd yourprojectname
 
 3. Install Dependencies:
-
+   ```bash
    flutter pub get
 
 4. Run the app:
-
+   ```bash
    flutter run
 
 **`Note`**: Replace `https://github.com/yourusername/yourprojectname.git` with your actual repository link and `yourprojectname` with the name of your project. Let me know if you need additional details included in this README.
